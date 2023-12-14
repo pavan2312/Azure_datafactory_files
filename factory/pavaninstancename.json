@@ -1,0 +1,9 @@
+{
+	"name": "pavaninstancename",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cac3f4fb-32f4-40b5-8e6f-40a69a33c02b",
+		"tenantId": "01e5a0a8-3b3e-495c-b1f3-a6b42028099a"
+	}
+}
