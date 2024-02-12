@@ -1,0 +1,76 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "538970.csv",
+				"container": "myfirstcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Date",
+				"type": "String"
+			},
+			{
+				"name": "Open Price",
+				"type": "String"
+			},
+			{
+				"name": "High Price",
+				"type": "String"
+			},
+			{
+				"name": "Low Price",
+				"type": "String"
+			},
+			{
+				"name": "Close Price",
+				"type": "String"
+			},
+			{
+				"name": "WAP",
+				"type": "String"
+			},
+			{
+				"name": "No.of Shares",
+				"type": "String"
+			},
+			{
+				"name": "No. of Trades",
+				"type": "String"
+			},
+			{
+				"name": "Total Turnover (Rs.)",
+				"type": "String"
+			},
+			{
+				"name": "Deliverable Quantity",
+				"type": "String"
+			},
+			{
+				"name": "% Deli. Qty to Traded Qty",
+				"type": "String"
+			},
+			{
+				"name": "Spread High-Low",
+				"type": "String"
+			},
+			{
+				"name": "Spread Close-Open",
+				"type": "String"
+			}
+		]
+	}
+}
