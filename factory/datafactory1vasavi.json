@@ -1,0 +1,9 @@
+{
+	"name": "datafactory1vasavi",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c760787c-7de1-48e0-8681-e1c00df7eb79",
+		"tenantId": "08711e12-95ed-4508-8345-73f6820e6126"
+	}
+}
